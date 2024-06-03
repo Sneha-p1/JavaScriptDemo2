@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter your Name :
+    <input id="text" onchange="textC()">
+    <br>
+    Entered Name :
+    <p id="demo"></p>
+    Enter Number :
+    <input id="text1" onchange="textC()">
+    Entered Number :
+    <p id="demo1"></p>
+    <Script>
+        function textC()
+        {   
+            let x=document.getElementById("text").value;
+            document.getElementById("demo").innerHTML=x;
+            // document.write("<br> Type is : ",typeof x);
+            
+            let y=document.getElementById("text1").value;
+            document.getElementById("demo1").innerHTML=y;
+            // document.write("<br> Type is : ",typeof y);
+        }
+    </Script>
+</body>
+</html>

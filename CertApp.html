@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="CertiApp.js"></script>
+</head>
+<body>
+    <h2>Certificate Dapp</h2>
+    <h4>Issue New Certificate</h4>
+
+    Select Course*
+    <br>
+    <select name="course" class="input" id="text">
+        <option value="CBA" selected >Certified Blockchain Associate</option>
+        <option value="CED">Certified Ethereum Developer</option>
+        <option value="CHF">Certified Hyperledger Fabric Developer</option>
+        </select>
+    <br><br>
+
+    Certificate ID*
+    <br>
+    <input id="text1">
+    <br><br>
+
+    Candidate name*
+    <br>
+    <input id="text2">
+    <br><br>
+
+    Select Grade*
+    <br>
+    <select name="Grade" class="input" id="text3">
+        <option value="S" selected >S </option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+    </select>
+<br><br>
+
+    Issue Date*
+    <br>
+    <input type="date" id="text4">
+
+    <br><br>
+    <button onclick="Certiapp()">Issue Certificate</button>
+
+    <br><br>
+    Details : 
+    <p id="demo"></p>
+ 
+
+</body>
+</html>
